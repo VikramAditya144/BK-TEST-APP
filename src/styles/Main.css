@@ -1,0 +1,79 @@
+/* .container ol li{
+    font-size: 1.4em;
+    color: hwb(0 94% 6% / 0.843);
+}
+
+.start{
+    display: flex;
+    justify-content: center;
+    padding-top: 2em;
+}
+
+.start .btn{
+    padding: .2em 1.7em;
+    border: none;
+    border-radius: .1em;
+    font-size: 1.2em;
+    color: #202020;
+    text-decoration: none;
+    background-color: #faff5a;
+}
+
+#form{
+    display: flex;
+    justify-content: center;
+    margin-top: 4em;
+}
+
+#form .userid{
+    padding: .7em 2em;
+    width: 50%;
+    border: none;
+    border-radius: 3px;
+    font-size: 1em;
+} */
+
+
+.container ol li {
+    font-size: 1.4em;
+    color: hwb(0 94% 6% / 0.843);
+}
+
+.start {
+    display: flex;
+    flex-direction: column; /* Align children vertically */
+    align-items: center; /* Center align children horizontally */
+    padding-top: 2em;
+}
+
+.start .btn {
+    padding: 0.7em 2em;
+    border: none;
+    border-radius: 0.5em;
+    font-size: 1.2em;
+    color: #202020;
+    text-decoration: none;
+    background-color: #faff5a;
+    transition: background-color 0.3s ease;
+    margin-top: 1em; /* Add margin to separate the button from inputs */
+}
+
+.start .btn:hover {
+    background-color: #ffea00;
+}
+
+#form {
+    display: flex;
+    flex-direction: column; /* Align children vertically */
+    align-items: center; /* Center align children horizontally */
+    margin-top: 2em; /* Adjusted margin-top for space */
+}
+
+#form .userid {
+    padding: 0.7em 2em;
+    width: 50%;
+    border: none;
+    border-radius: 0.5em;
+    font-size: 1em;
+    margin-bottom: 1em; /* Add margin bottom to separate inputs */
+}
