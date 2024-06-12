@@ -2,7 +2,7 @@
     display: flex;
     justify-content: center;    
     flex-direction: column;
-    border: 1px solid #cecece;
+    border: 1px solid #43360d;
     padding: 3em 4em;
     gap: 1em;
 }
@@ -15,7 +15,7 @@
 
 .container .flex span {
     font-size: 1.4em;
-    color: #cecece;
+    color: #20202b;
 }
 
 .container .flex span.achive {
@@ -40,7 +40,7 @@ table {
     font-size: 1.1em;
     text-align: center;
     /* color: #cecece; */
-    background: #d8d8d8;
+    background: #ceb47c;
     padding: 18px 0;
 }
 

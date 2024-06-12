@@ -1,41 +1,40 @@
 export default [
     {
-        id:1,
-        question :"Javascript is a ________ Language",
+        id: 1,
+        question: "JavaScript is a ________ Language",
         options: [
-            'good',
+            'Scripting',
             'Procedural',
             'OOP'
         ]
     },
-
     {
-        id:2,
-        question :"Javascript is a ________ Language",
+        id: 2,
+        question: "Which company developed JavaScript?",
         options: [
-            'good',
-            'Procedural',
-            'OOP'
+            'Microsoft',
+            'Netscape',
+            'Google'
         ]
     },
-
     {
-        id:3,
-        question :"Javascript is a ________ Language",
+        id: 3,
+        question: "Which symbol is used for comments in JavaScript?",
         options: [
-            'good',
-            'Procedural',
-            'OOP'
+            '//',
+            '/* */',
+            '<!-- -->'
         ]
     },
-
     {
-        id:4,
-        question :"Javascript is a ________ Language",
+        id: 4,
+        question: "Which method is used to parse a JSON string in JavaScript?",
         options: [
-            'good',
-            'Procedural',
-            'OOP'
+            'JSON.parse()',
+            'JSON.stringify()',
+            'JSON.convert()'
         ]
     },
-]
+];
+
+
